@@ -1,0 +1,73 @@
+/* Navbar */
+.navbar-brand {
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 32;
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #232c2c;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
+/* Akhir navbar */
+
+/* Awal dari jumbotron */
+.jumbotron {
+  background-color: #b1f9da;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 150px 0;
+}
+
+.jumbotron img {
+  width: 150px;
+  border-radius: 500px;
+  box-shadow: 0 3px 5px #ffff;
+  margin-bottom: 9px;
+}
+
+.jumbotron h3 {
+  color: black;
+}
+
+.jumbotron p {
+  color: balck;
+}
+
+.jumbotron a {
+  margin: 22px 10px;
+  color: black;
+}
+/* Akhir dari jumbotron */
+
+/* Awal About */
+section {
+  padding-top: 5rem;
+}
+/* Akhir About */
+
+/* Awal dari Project */
+.hobi {
+  background-color: #75cbc4;
+}
+/* Akhir dari Project */
+
+.footer p {
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: 10;
+}
+
+body {
+  background-color: #bbc4c4;
+}
